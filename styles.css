@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(212, 45%, 89%)
+}
+
+#container {
+  width: 250px;
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+#qr-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+  font-weight: 700;
+  font-family: Outfit;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+/* Desktop styles (1440px) */
+@media screen and (min-width: 1440px) {
+  .centered-box {
+      width: 450px; /* Or whatever width you prefer for desktop */
+      /* Add any other desktop-specific styles */
+  }
+}
+
+/* For screens between mobile and desktop */
+@media screen and (min-width: 376px) and (max-width: 1439px) {
+  .centered-box {
+      width: 80%; /* Adjust as needed */
+      max-width: 600px; /* Adjust as needed */
+  }
+}
